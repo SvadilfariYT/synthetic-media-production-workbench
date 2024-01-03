@@ -1,0 +1,55 @@
+.chatbot-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 100%; /* Set a max-width for the chatbot */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0 auto; /* Center the chatbot container */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    color: #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative; /* Add position relative for absolute positioning context */
+  }
+  
+  .messages-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #2a2a2a;
+  }
+
+  .messages-container-inner {
+    width: 100%;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Suggestion Picker */
+  
+  .suggestion-picker {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow suggestions to wrap if needed */
+  padding: 10px;
+  background-color: #232323;
+}
+  .suggestion-picker button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    color: #ccc;
+    border-radius: 22px; /* Match the input field and message bubbles */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Consistent with message bubbles */
+  }
+  
+  .suggestion-picker button:hover {
+    background-color: #505050; /* A slightly lighter grey for hover */
+  }
+  
+  
+  

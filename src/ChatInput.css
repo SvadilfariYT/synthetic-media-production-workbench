@@ -1,0 +1,57 @@
+
+.input-container {
+    padding: 10px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+  
+.input-container-inner {
+    width: 100%;
+    max-width: 48rem;
+    display: flex;
+    justify-content: center;
+}
+  
+.chat-input {
+    flex-grow: 1;
+    padding: 10px 20px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 22px;
+    margin-right: 10px;
+    resize: none;
+    overflow: auto;
+    height: 18px;
+    min-height: 18px; /* Minimum initial height */
+    max-height: 300px; /* Maximum height before scrolling */
+    line-height: 1.2; /* Adjusted line spacing */
+}
+
+
+  /* Send Button */
+  
+  .send-button {
+    padding: 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 40px; /* Width of the send button */
+    height: 40px; /* Height of the send button */
+    display: flex; /* Use flexbox to center the icon */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .send-icon {
+    width: 60%; /* Reduce the size of the icon */
+    height: 60%; /* Reduce the size of the icon */
+  }

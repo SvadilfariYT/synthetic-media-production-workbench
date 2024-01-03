@@ -1,0 +1,33 @@
+.message {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 10   px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+  }
+  
+  .message.user {
+    background-color: #3D5166;
+    color: white;
+    flex-direction: row-reverse;
+    justify-content: flex-start; /* Align user messages to the right */
+  }
+  
+  .message.bot {
+    background-color: #333;
+    color: #ddd;
+  }
+  
+  .sender-icon {
+    margin: 0 10px;
+    /* Add styles for the icon */
+  }
+  
+  .text {
+    padding: 8px 12px;
+    border-radius: 18px;
+    max-width: 80%;
+  }
